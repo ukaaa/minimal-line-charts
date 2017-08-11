@@ -1,6 +1,6 @@
 import { browser, by, element } from 'protractor';
 
-export class FooPage {
+export class MinimalLineChartsPage {
   navigateTo() {
     return browser.get('/');
   }

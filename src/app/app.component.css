@@ -1,0 +1,35 @@
+:host {
+  height: 62.5%;
+  width: 62.5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+app-chart {
+  margin: 4px;
+  box-shadow: 2px 2px 4px 0 rgba(0,0,0,0.1);
+  transition: all .4s cubic-bezier(0.075, 0.82, 0.165, 1);
+  position: relative;
+}
+
+app-chart:hover {
+  transform: scale(2);
+  z-index: 999;
+  transition-duration: .2s;
+}
+
+.btnAddChart {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  background: #3A75E4;
+  border: none;
+  padding: 1rem;
+  color: white;
+  font-family: inherit;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
